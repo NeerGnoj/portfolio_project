@@ -54,7 +54,7 @@
               </p>
               <!-- mb-5 gives extra margin spacing under lead text -->
               <p class="lead mb-5">Let's create something amazing together!</p>
-              <button type="button" class="btn btn-primary sharp-corners" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <button type="button" class="btn btn-primary sharp-corners custom-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Subscribe to my newsletter!
               </button>
           </div>
@@ -203,7 +203,7 @@
                 <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" class="btn btn-primary custom-button">Send</button>
             </div>
           </form>
         </div>
@@ -221,16 +221,19 @@
           <div class="modal-body">
             <p>Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered straight to your inbox.</p>
             <form class="row g-3">
-              <div class="col-lg-6">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name">
-              </div>
-              <div class="col-lg-6">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div class="col-12 mb-4">
-                <button type="submit" class="btn btn-primary">Sign up!</button>
-              </div>
+                <div class="col-lg-6">
+                    <label for="inputName" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="col-lg-6">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+                <div class="col-12 mb-4">
+                    <button type="submit" class="btn btn-primary custom-button">
+                        Sign up!
+                    </button>
+                </div>
             </form>
           </div>
         </div>
